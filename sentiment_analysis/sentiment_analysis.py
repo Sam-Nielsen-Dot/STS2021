@@ -78,8 +78,8 @@ if __name__ == "__main__":
 
     random.shuffle(dataset)
 
-    train_data = dataset[:7000]
-    test_data = dataset[7000:]
+    train_data = dataset[:9000]
+    test_data = dataset[9000:]
 
     classifier = NaiveBayesClassifier.train(train_data)
 

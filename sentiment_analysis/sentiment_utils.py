@@ -30,11 +30,11 @@ def remove_noise(tweet_tokens, stop_words = ()):
             cleaned_tokens.append(token.lower())
     return cleaned_tokens
 
-def classify(text):
-    f = open('sentiment_classifier.pickle', 'rb')
+def classify(text, model):
+    f = open(model, 'rb')
     classifier = pickle.load(f)
     f.close()
 
     custom_tokens = remove_noise(word_tokenize(text))
 
-    print(text, classifier.classify(dict([token, True] for token in custom_tokens)))
+    return classifier.classify(dict([token, True] for token in custom_tokens))

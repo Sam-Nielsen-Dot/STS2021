@@ -1,0 +1,64 @@
+id, key_words, query_type, not_depressed_set_type, negative_sentiment_filter, personal_pronouns, testing_accuracy, user_accuracy, forum_accuracy0,0,hashtag,random,True,True,0,0,0
+1,0,hashtag,random,True,False,0,0,0
+2,0,hashtag,random,False,True,0,0,0
+3,0,hashtag,random,False,False,0,0,0
+4,0,hashtag,positive,True,True,0,0,0
+5,0,hashtag,positive,True,False,0,0,0
+6,0,hashtag,positive,False,True,0,0,0
+7,0,hashtag,positive,False,False,0,0,0
+8,0,plain text,random,True,True,0,0,0
+9,0,plain text,random,True,False,0,0,0
+10,0,plain text,random,False,True,0,0,0
+11,0,plain text,random,False,False,0,0,0
+12,0,plain text,positive,True,True,0,0,0
+13,0,plain text,positive,True,False,0,0,0
+14,0,plain text,positive,False,True,0,0,0
+15,0,plain text,positive,False,False,0,0,0
+16,1,hashtag,random,True,True,0,0,0
+17,1,hashtag,random,True,False,0,0,0
+18,1,hashtag,random,False,True,0,0,0
+19,1,hashtag,random,False,False,0,0,0
+20,1,hashtag,positive,True,True,0,0,0
+21,1,hashtag,positive,True,False,0,0,0
+22,1,hashtag,positive,False,True,0,0,0
+23,1,hashtag,positive,False,False,0,0,0
+24,1,plain text,random,True,True,0,0,0
+25,1,plain text,random,True,False,0,0,0
+26,1,plain text,random,False,True,0,0,0
+27,1,plain text,random,False,False,0,0,0
+28,1,plain text,positive,True,True,0,0,0
+29,1,plain text,positive,True,False,0,0,0
+30,1,plain text,positive,False,True,0,0,0
+31,1,plain text,positive,False,False,0,0,0
+32,2,hashtag,random,True,True,0,0,0
+33,2,hashtag,random,True,False,0,0,0
+34,2,hashtag,random,False,True,0,0,0
+35,2,hashtag,random,False,False,0,0,0
+36,2,hashtag,positive,True,True,0,0,0
+37,2,hashtag,positive,True,False,0,0,0
+38,2,hashtag,positive,False,True,0,0,0
+39,2,hashtag,positive,False,False,0,0,0
+40,2,plain text,random,True,True,0,0,0
+41,2,plain text,random,True,False,0,0,0
+42,2,plain text,random,False,True,0,0,0
+43,2,plain text,random,False,False,0,0,0
+44,2,plain text,positive,True,True,0,0,0
+45,2,plain text,positive,True,False,0,0,0
+46,2,plain text,positive,False,True,0,0,0
+47,2,plain text,positive,False,False,0,0,0
+48,3,hashtag,random,True,True,0,0,0
+49,3,hashtag,random,True,False,0,0,0
+50,3,hashtag,random,False,True,0,0,0
+51,3,hashtag,random,False,False,0,0,0
+52,3,hashtag,positive,True,True,0,0,0
+53,3,hashtag,positive,True,False,0,0,0
+54,3,hashtag,positive,False,True,0,0,0
+55,3,hashtag,positive,False,False,0,0,0
+56,3,plain text,random,True,True,0,0,0
+57,3,plain text,random,True,False,0,0,0
+58,3,plain text,random,False,True,0,0,0
+59,3,plain text,random,False,False,0,0,0
+60,3,plain text,positive,True,True,0,0,0
+61,3,plain text,positive,True,False,0,0,0
+62,3,plain text,positive,False,True,0,0,0
+63,3,plain text,positive,False,False,0,0,0
