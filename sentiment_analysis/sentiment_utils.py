@@ -30,10 +30,8 @@ def remove_noise(tweet_tokens, stop_words = ()):
             cleaned_tokens.append(token.lower())
     return cleaned_tokens
 
-def classify(text, model):
-    f = open(model, 'rb')
-    classifier = pickle.load(f)
-    f.close()
+def classify(text, model, classifier):
+    
 
     custom_tokens = remove_noise(word_tokenize(text))
 

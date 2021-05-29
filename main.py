@@ -1,3 +1,14 @@
-from sentiment_analysis.sentiment_utils import classify
+import csv
+i = 0
 
-print(classify("pranav is a fucking dickhead", "sentiment_analysis\\sentiment_classifier.pickle"))
+accuracy = 99
+
+r = csv.reader(open('Datasets\\results.csv')) # Here your csv file
+lines = list(r)
+
+print(lines)
+lines[i+1][7] = accuracy
+print(lines)
+
+writer = csv.writer(open('Datasets\\results.csv', 'w', newline=""))
+writer.writerows(lines)
