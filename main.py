@@ -1,14 +1,7 @@
-import csv
-i = 0
+from depressionAnalysis.depressionAnalysis import classify, get_classifier
 
-accuracy = 99
+classifier = get_classifier(2)
 
-r = csv.reader(open('Datasets\\results.csv')) # Here your csv file
-lines = list(r)
-
-print(lines)
-lines[i+1][7] = accuracy
-print(lines)
-
-writer = csv.writer(open('Datasets\\results.csv', 'w', newline=""))
-writer.writerows(lines)
+print(classify("I hate my life"))
+print(classify("I hate my life", mode="probabilities", classifier=classifier))
+#[2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14, 26, 27, 28, 29, 30, 31, 76]

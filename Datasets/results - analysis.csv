@@ -1,0 +1,98 @@
+id, key_words, query_type, not_depressed_set_type, negative_sentiment_filter, personal_pronouns, absolutist_language, testing_accuracy, positive_accuracy, negative_accuracy 
+0,0,hashtag,random,False,False,False,0.9964989059080963,0.3078,0.632
+1,0,hashtag,positive,False,False,False,0.8990920881971466,0.8512,0.6356
+2,0,hashtag,random,False,False,True,0.9947521865889213,0.3676,0.5776
+3,0,hashtag,positive,False,False,True,0.8251748251748252,0.8206,0.6158
+4,0,hashtag,random,False,True,False,0.9915405164737311,0.384,0.5814
+5,0,hashtag,positive,False,True,False,0.7379356568364611,0.7376,0.581
+6,0,hashtag,random,False,True,True,0.9776227141482194,0.4092,0.5672
+7,0,hashtag,positive,False,True,True,0.6262975778546713,0.4876,0.5872
+8,0,hashtag,random,True,False,False,0.9591587185130839,0.4632,0.5532
+9,0,hashtag,positive,True,False,False,0.6556473829201102,0.4408,0.603
+10,0,hashtag,random,True,False,True,0.9526960784313725,0.4746,0.5538
+11,0,hashtag,positive,True,False,True,0.6240740740740741,0.4238,0.6026
+12,0,hashtag,random,True,True,False,0.9437898870888561,0.4718,0.5482
+13,0,hashtag,positive,True,True,False,0.6014897579143389,0.4124,0.5896
+14,0,hashtag,random,True,True,True,0.9449496190710248,0.4752,0.5504
+15,0,hashtag,positive,True,True,True,0.6155285313376988,0.4016,0.5864
+16,0,plain text,random,False,False,False,0.9966727957271693,0.0968,0.879
+17,0,plain text,positive,False,False,False,0.9339745873411709,0.7866,0.8212
+18,0,plain text,random,False,False,True,0.9950149551345963,0.1504,0.8036
+19,0,plain text,positive,False,False,True,0.8617259388211888,0.756,0.8288
+20,0,plain text,random,False,True,False,0.9929181042309787,0.1822,0.7812
+21,0,plain text,positive,False,True,False,0.7842042281611488,0.7078,0.8322
+22,0,plain text,random,False,True,True,0.9868335851500107,0.2438,0.7428
+23,0,plain text,positive,False,True,True,0.683404776484997,0.6278,0.7662
+24,0,plain text,random,True,False,False,0.9854081167350661,0.391,0.6946
+25,0,plain text,positive,True,False,False,0.7027417027417028,0.6318,0.733
+26,0,plain text,random,True,False,True,0.9836292367996311,0.4076,0.6804
+27,0,plain text,positive,True,False,True,0.6851159311892296,0.6144,0.7262
+28,0,plain text,random,True,True,False,0.9881862404447533,0.4154,0.67
+29,0,plain text,positive,True,True,False,0.6735003796507213,0.613,0.7202
+30,0,plain text,random,True,True,True,0.9853420195439739,0.4258,0.6584
+31,0,plain text,positive,True,True,True,0.6594761171032357,0.6132,0.7164
+32,1,hashtag,random,False,False,False,0.9974631553515342,0.051,0.9422
+33,1,hashtag,positive,False,False,False,0.9481410445559162,0.7564,0.8812
+34,1,hashtag,random,False,False,True,0.9945277443362154,0.0636,0.9268
+35,1,hashtag,positive,False,False,True,0.9001140622453968,0.7294,0.8782
+36,1,hashtag,random,False,True,False,0.9945095711529901,0.1122,0.869
+37,1,hashtag,positive,False,True,False,0.8301684942497994,0.684,0.8804
+38,1,hashtag,random,False,True,True,0.9911860509676184,0.18,0.803
+39,1,hashtag,positive,False,True,True,0.726002703920685,0.6362,0.8636
+40,1,hashtag,random,True,False,False,0.9905778894472361,0.317,0.7652
+41,1,hashtag,positive,True,False,False,0.7415540540540541,0.6828,0.7888
+42,1,hashtag,random,True,False,True,0.9912167952013711,0.3262,0.7474
+43,1,hashtag,positive,True,False,True,0.7224220623501199,0.6712,0.7788
+44,1,hashtag,random,True,True,False,0.9900862068965517,0.342,0.7456
+45,1,hashtag,positive,True,True,False,0.7140243902439024,0.6716,0.7638
+46,1,hashtag,random,True,True,True,0.989771490750816,0.3598,0.7308
+47,1,hashtag,positive,True,True,True,0.7335423197492164,0.678,0.751
+48,1,plain text,random,False,False,False,0.9974090867030628,0.0408,0.9556
+49,1,plain text,positive,False,False,False,0.950682282153218,0.759,0.8928
+50,1,plain text,random,False,False,True,0.9957127545551983,0.051,0.9474
+51,1,plain text,positive,False,False,True,0.9173987310883358,0.7266,0.8952
+52,1,plain text,random,False,True,False,0.9922362224767723,0.0904,0.9
+53,1,plain text,positive,False,True,False,0.8626724315421042,0.6882,0.902
+54,1,plain text,random,False,True,True,0.9919650655021834,0.14,0.858
+55,1,plain text,positive,False,True,True,0.7655045871559633,0.6314,0.8868
+56,1,plain text,random,True,False,False,0.9910887253002713,0.2526,0.8268
+57,1,plain text,positive,True,False,False,0.7627197039777983,0.6754,0.8608
+58,1,plain text,random,True,False,True,0.990796318527411,0.2694,0.8074
+59,1,plain text,positive,True,False,True,0.7377377377377378,0.6694,0.8522
+60,1,plain text,random,True,True,False,0.9904992925005054,0.2812,0.7948
+61,1,plain text,positive,True,True,False,0.746276322547509,0.6726,0.8102
+62,1,plain text,random,True,True,True,0.9928234570432644,0.3078,0.778
+63,1,plain text,positive,True,True,True,0.7314864144912093,0.6618,0.7954
+64,2,hashtag,random,False,False,False,0.9976192304738499,0.0352,0.9626
+65,2,hashtag,positive,False,False,False,0.953085669646732,0.7444,0.9054
+66,2,hashtag,random,False,False,True,0.9960642074394197,0.0392,0.9572
+67,2,hashtag,positive,False,False,True,0.9265916850773248,0.7268,0.8976
+68,2,hashtag,random,False,True,False,0.9940510239103078,0.053,0.9468
+69,2,hashtag,positive,False,True,False,0.8853858212854904,0.693,0.9056
+70,2,hashtag,random,False,True,True,0.9903103957956971,0.1242,0.8742
+71,2,hashtag,positive,False,True,True,0.7905471026222078,0.6322,0.8922
+72,2,hashtag,random,True,False,False,0.9904041336039859,0.2368,0.841
+73,2,hashtag,positive,True,False,False,0.7730467135179826,0.681,0.87
+74,2,hashtag,random,True,False,True,0.9896591344312524,0.2472,0.827
+75,2,hashtag,positive,True,False,True,0.7727272727272727,0.678,0.8556
+76,2,hashtag,random,True,True,False,0.991862042239876,0.2552,0.823
+77,2,hashtag,positive,True,True,False,0.7519666820916242,0.6672,0.8576
+78,2,hashtag,random,True,True,True,0.9915337664894665,0.2776,0.8086
+79,2,hashtag,positive,True,True,True,0.7441077441077442,0.6694,0.8478
+80,2,plain text,random,False,False,False,0.9971386316872428,0.0306,0.9728
+81,2,plain text,positive,False,False,False,0.9492954739538856,0.7406,0.9112
+82,2,plain text,random,False,False,True,0.9962758528961894,0.0358,0.963
+83,2,plain text,positive,False,False,True,0.9294674752845393,0.7104,0.9106
+84,2,plain text,random,False,True,False,0.9937957689178194,0.0424,0.9596
+85,2,plain text,positive,False,True,False,0.9036885245901639,0.6948,0.9144
+86,2,plain text,random,False,True,True,0.9921259842519685,0.1038,0.8924
+87,2,plain text,positive,False,True,True,0.8307436182019978,0.6454,0.9014
+88,2,plain text,random,True,False,False,0.9942896694929919,0.2114,0.861
+89,2,plain text,positive,True,False,False,0.7894926232457719,0.6784,0.8818
+90,2,plain text,random,True,False,True,0.9927536231884058,0.2262,0.8482
+91,2,plain text,positive,True,False,True,0.7841269841269841,0.6746,0.8766
+92,2,plain text,random,True,True,False,0.9924701561065198,0.2348,0.8448
+93,2,plain text,positive,True,True,False,0.7865030674846626,0.6742,0.8694
+94,2,plain text,random,True,True,True,0.9942066903382545,0.251,0.8318
+95,2,plain text,positive,True,True,True,0.7626541897065079,0.6712,0.8646
+

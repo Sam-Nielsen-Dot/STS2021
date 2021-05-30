@@ -102,7 +102,7 @@ def load_model(id):
     r = csv.reader(open('Datasets\\results.csv')) # Here your csv file
     lines = list(r)
 
-    lines[i+1][7] = accuracy
+    lines[id+1][7] = accuracy
 
     writer = csv.writer(open('Datasets\\results.csv', 'w', newline=""))
     writer.writerows(lines)
@@ -113,5 +113,6 @@ def load_model(id):
 
 #load_model(0)
 if __name__ == "__main__":
-    for i in range(0, 95):
-        load_model(i)
+    #for i in range(0, 95):
+    #    load_model(i)
+    load_model(95)
